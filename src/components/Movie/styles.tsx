@@ -12,11 +12,11 @@ const POSTER_WIDTH = POSTER_HEIGHT * POSTER_RATIO
 const styles = StyleSheet.create({
     container:{
         backgroundColor:"white",
-        margin:10,
+        marginHorizontal:10,
         alignItems:"center",
         width:SCREEN_WIDTH * 0.72,
-        borderRadius:20,
-        padding:20
+        borderRadius:34,
+        padding:13,
     },
     moviePoster:{
         height:POSTER_HEIGHT,
@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
         textAlign:"justify",
         margin:10,
         fontSize:16,
+        bottom:0
     }
 })
 
